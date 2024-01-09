@@ -208,8 +208,6 @@ See [Problem2.md](./Problem2.md).
 ## Problem 3
 See [Problem3.md](./Problem3.md).
 
-programs executed in C++ must
-be compiled 
 ## 📚  Resources 
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
 * [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
