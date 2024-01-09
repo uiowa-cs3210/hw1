@@ -5,21 +5,6 @@
 2. Set up a local class repository, initialized with Git and synced with the online Github repositories.
 3. Push some simple C++ programs.
 
-This document presents some general information on each
-of the necessary tools and some specific 
-information/instructions relating to the assignment.
-Since there might be a lot of information, the
-specific assignment instructions are colored as 
-follows.
-
-<span style="color:cyan">
-Assignment instructions will take this font color.
-</span>
-
-Please note that it is as important to know *why*
-to use a tool as it is to know *how* to use it. So
-don't ignore the non-colored text.
-
 ## Linux
 Linux is an operating system as are Windows and MacOS. 
 
@@ -39,19 +24,13 @@ with icons, pointers, etc. The command-line interface or
 simply the *command line* is a textual interface, 
 which is pretty commonly used by Linux users.
 
-<span style="color:cyan">
 We will use the Linux command-line in combination with
 its GUI.
-</span>
 
-<span style="color:cyan">
 If you have a Linux distribution or want to install one, you are welcome to (we can't promise any help with installation).
-</span>
 
-<span style="color:cyan">
 However, since many of you might not be running a Linux distribution on your computers, we will 
 use the [FastX virtual machine](https://fastx.divms.uiowa.edu). Using the MATE terminal, you can virtually run a Fedora distribution of Linux from your browser.
-</span>
 
 ## Problem 1
 
@@ -63,11 +42,9 @@ Git is a **distributed Version Control System (VCS)**, which means it is a usefu
 
 GitHub is a way to use the same power of Git all online with an easy-to-use interface. It’s used across the software world and beyond to collaborate and maintain the history of projects.
 
-<span style="color:cyan">
 We will store most of our class material - assignments,
 solutions, etc. - on Github and use git via the Linux 
 command line.
-</span>
 
 ### Understanding the GitHub flow 
 
@@ -77,21 +54,16 @@ The GitHub flow is a lightweight workflow that allows you to experiment and coll
 
 A repository or *repo* is where your project work happens--think of it as your project folder. It contains all of your project’s files and revision history.  You can work within a repository alone or invite others to collaborate with you on those files.
 
-<span style="color:cyan">
 Your assignments with instructions and any starter
 code will reside in online a Github repo
-</span>
 
 #### :octocat: Cloning 
 
 When a repository is created with GitHub, it’s stored remotely in the ☁️. You can clone a repository to create a local copy on your computer and then use Git to sync the two. This makes it easier to fix issues, add or remove files, and push larger commits. You can also use the editing tool of your choice as opposed to the GitHub UI. We will use the Linux command line, which is Linux's interface
 to the operating system. Cloning a repository also pulls down all the repository data that GitHub has at that point in time, including all versions of every file and folder for the project! This can be helpful if you experiment with your project and then realize you liked a previous version more. 
 
-<span style="color:cyan">
 You will clone the repository for each assignment 
 locally into your computer to work on it.
-</span>
-
 
 To learn more about cloning, read ["Cloning a Repository"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). 
 
@@ -100,10 +72,8 @@ To learn more about cloning, read ["Cloning a Repository"](https://docs.github.c
 
 Once you have a commit or multiple commits that you’re ready to add to your repository, you can use the push command to add those changes to your remote repository.
 
-<span style="color:cyan">
 You will work on your assignment and locally commit 
 your changes, and then push them to the remote repo.
-</span>
 
 ### 💻 GitHub terms to know 
 
@@ -112,13 +82,10 @@ As already mentioned, a repository contains a project. As you work more on GitHu
 
 Repositories also contain **README**s. You can add a README file to your repository to tell other people why your project is useful, what they can do with your project, and how they can use it. We are using this README to communicate how to learn Git and GitHub with you.
 
-<span style="color:cyan">
 You will have a repository per homework/project and the README will specify the problems to be solved for the assignment.
-</span>
 
 To learn more about repositories read ["Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and ["About README's"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes). 
 
-<span style="color:cyan">
 The following Github features are important and 
 particularly useful when maintaining large projects,
 developed by large teams. Our assignments will
@@ -129,7 +96,6 @@ might be more meaningful to try when we work
 on the project. Otherwise, I will try to 
 demonstrate their utility using examples if 
 we have time.
-</span>
 
 #### Branches
 You can use branches on GitHub to isolate work that you do not want merged into your final project just yet. Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. Typically, you might create a new branch from the default branch of your repository—main. This makes a new working copy of your repository for you to experiment with. Once your new changes have been reviewed by a teammate, or you are satisfied with them, you can merge your changes into the default branch of your repository.
@@ -165,13 +131,11 @@ To learn more about your user profile and adding and updating your profile READM
 
 You might have noticed already, but you can add some fun styling to your issues, pull requests, and files. ["Markdown"](https://guides.github.com/features/mastering-markdown/) is an easy way to style your issues, pull requests, and files with some simple syntax. This can be helpful to organize your information and make it easier for others to read. You can also drop in gifs and images to help convey your point!
 
-<span style="color:cyan">
 All the assignment specifications will be written
 in Markdown, you will also have to write READMEs 
 in Markdown. It is a fairly simple language and
 should be straightforward to learn on the fly, as
 we go through class. 
-</span>
 
 To learn more about using GitHub’s flavor of markdown, read ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax). 
 
