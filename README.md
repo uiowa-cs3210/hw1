@@ -3,7 +3,7 @@
 ## Assignment Objectives:
 1. Set up Linux via FastX with git, a C++ compiler and VSCode.
 2. Set up a local class repository, initialized with Git and synced with the online Github repositories.
-3. Push some simple C++ programs.
+3. Run a some simple C++ program.
 
 ## Linux
 Linux is an operating system as are Windows and MacOS. 
@@ -11,26 +11,76 @@ Linux is an operating system as are Windows and MacOS.
 Why use Linux?
 1. It's free.
 2. It's open source. You can access it's code, create your own copy, modify it any way you want to.
-3. Windows simplifies things for users by hiding what is happening under the hood using utilities such as GUIs. It is easier, and often natural to work under the hood in Linux, which developers prefer.
-4. Linux has also improved these simplifying utilities such as GUIs, so a user could get a best-of-both-worlds scenario.
+3. Windows simplifies things for users by hiding what is happening under the hood using utilities such as GUIs. 
+It is easier, and often natural to work under the hood in Linux, which developers prefer.
+4. Linux has also improved these simplifying utilities such as GUIs, so a user could get a best-of-both-worlds 
+scenario.
 
-There are many different versions of Linux called "Linux distributions" that you can install onto your computer. Ex: Fedora, Ubuntu, Mint, etc. 
+There are many different versions of Linux called "Linux distributions" that you can install onto your computer. 
+Ex: Fedora, Ubuntu, Mint, etc. 
 
-An operating system essentially runs the computer system
-and offers interfaces for the user to interact with
-the system. A common type of interface is the 
-Graphical User Interface (GUI) - a visual interface
-with icons, pointers, etc. The command-line interface or
-simply the *command line* is a textual interface, 
+An operating system essentially runs the computer system and offers interfaces for the user to interact with
+the system. A common type of interface is the Graphical User Interface (GUI) - a visual interface
+with icons, pointers, etc. The command-line interface or simply the *command line* is a textual interface, 
 which is pretty commonly used by Linux users.
 
-We will use the Linux command-line in combination with
-its GUI.
+We will use the Linux command-line in combination with its GUI.
 
-If you have a Linux distribution or want to install one, you are welcome to (we can't promise any help with installation).
+If you have a Linux distribution or want to install one, you are welcome to (we can't promise any help with 
+installation).
 
 However, since many of you might not be running a Linux distribution on your computers, we will 
-use the [FastX virtual machine](https://fastx.divms.uiowa.edu). Using the MATE terminal, you can virtually run a Fedora distribution of Linux from your browser.
+use the [FastX virtual machine](https://fastx.divms.uiowa.edu). Using the MATE terminal, you can virtually run a 
+Fedora distribution of Linux from your browser. Note that the assignment instructions will be tailored 
+to this Linux distribution which might be slightly different from others that you may choose to use. 
+For our purposes, these differences shouldn't be hard to deal with but you might have to have some
+Linux knowledge to do so. That is another reason to stick with the virtual machine.
+
+## Submission Instructions
+**Don't** push any change to the specification files. We will split all files in the assignment repos 
+into specification files and solution files. *Specification files* include any files that are used to specify the
+problem to you. For this assignment, these are `README.md` (this file), `Problem1.md`, `Problem2.md`, `Problem3.md`, 
+`helloworld.cpp`, `sample.csv`. Don't change these.
+
+Solution files are those where you will enter your solutions. You will only push your outputs to the 
+CSV (comma-separated values) file `solutions.csv`, and add some other files to your repo. A CSV is a common way to 
+define rows and columns of data. Think of an Excel spreadsheet: because data is organized into rows and columns, 
+it is easy to locate data using their row number and column number. In a CSV, each line represents a row (so rows 
+are separated by new lines); and  within a row, data column data is separated using commas. So if I wanted to represented 
+the integers 1 to 12, sequentially (left to right, then top to bottom) among 3 columns `c1, `c2`, and `c3`, my 
+file would look like this:
+```
+c1, c2, c3
+1, 2, 3
+4, 5, 6
+7, 8, 9
+10, 11, 12
+```
+This is the raw data in a CSV (presented in [sample.csv](./sample.csv)), however there are editors that can give 
+you a more convenient view of this data. Most Linux distros have an open source version of Microsoft Excel 
+called LibreOffice Calc. You can open this file in this editor using the GUI, by right clicking on `sample.csv` 
+and clicking `Open With LibreOffice Calc`. Calc will give you the option of specifying the column separator. Comma is 
+the default separator, so leave this unchanged to see the file in an Excel spreadsheet like view. Another way to 
+do this within the VSCode IDE is to right click on the file in the file navigation bar on the left and clicking
+`Open Preview`.
+
+**The following instruction is very important to follow throughout the semester for this class, and throuhg the 
+rest of your programming career.**
+Your solutions must provide **only** what is asked for, nothing less (this isn't a new idea, if your answer contains 
+less than what is asked for then you lose points), but also *nothing more* - I want to stress this, you could lose 
+points for saying more than what is asked for, including leading or trailing whitespaces. This is because we often 
+use automated scripts to grade your solutions, and we have to tell these scripts exactly what to expect from your
+solutions. This is analogous to programming in the near world where programs will generate data that are used by 
+other programs that don't think like humans, they need to understand the precise form of the data, and can't 
+account for even small variations such as unexcepted white-sapces.
+Now, sometimes what is asked for is not clear. In this case, your problem is underspecified, so it is not clear 
+what to do. In such cases, (and even in cases where the problem is correctly specified but unclear to you) 
+you must ask clarifying questions.
+
+For this assignment, we will ask you to push your command line solutions (problems 1 and 2) to the second column 
+(titled `Solution`) of [solutions.csv](solutions.csv). For each row (except the header), the cell in the 
+first column specifies the problem number whose solution must be entered into the second column of the 
+corresponding row. For problem 3, you will add your files to the repo.
 
 ## Problem 1
 
